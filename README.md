@@ -16,7 +16,7 @@ k8s 1.13.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v
 
 2、给.sh结尾的脚本赋权限。
 
-3、然后只需执行./deploy_k8s_master.sh就可以啦！
+3、然后只需执行./k8s1.15.1.sh就可以啦！
 
 4、tail -f setup.log 查看日志
 
