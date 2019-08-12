@@ -1,5 +1,6 @@
-# centos7 deploy_Kubernetes-v1.15.0
-k8s 1.15.0一键部署地址：git clone https://github.com/luckman666/deploy_Kubernetes-v1.15.0.git
+# centos7 deploy_Kubernetes-v1.15.1
+
+k8s 1.15.0一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.15.0
 
 k8s 1.14.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.14.1
 
@@ -25,13 +26,13 @@ k8s 1.13.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v
 
 # 部署k8s集群具体实现步骤：
 
-git clone https://github.com/luckman666/deploy_Kubernetes-v1.15.0.git
+git clone https://github.com/luckman666/k8s1.15.1.git
 
-cd deploy_Kubernetes-v1.15.0 && chmod -R 755 .
+cd k8s1.15.1 && chmod -R 755 .
 
 编辑base.config里面的参数
 
-./deploy_k8s_master.sh
+./k8s1.15.1.sh
 
 
 # base.config参数介绍：
@@ -42,7 +43,7 @@ masterip="192.168.1.107"
 
 K8S版本：
 
-k8s_version="v1.15.0"
+k8s_version="v1.15.1"
 
 服务器root密码
 
